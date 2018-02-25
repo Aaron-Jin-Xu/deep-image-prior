@@ -42,8 +42,7 @@ img_pil      = crop_image(img_pil,      dim_div_by)
 img_np      = pil_to_np(img_pil)
 img_mask_np = pil_to_np(img_mask_pil)
 
-print(img_mask_np)
-quit()
+img_mask_np = np.ones_like(img_mask_np)
 
 # Visualize
 img_mask_var = np_to_var(img_mask_np).type(dtype)

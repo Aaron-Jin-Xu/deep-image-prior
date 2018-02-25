@@ -22,7 +22,7 @@ dtype = torch.cuda.FloatTensor
 
 PLOT = True
 #imsize=-1
-imsize = 512
+imsize = 64
 dim_div_by = 64
 dtype = torch.cuda.FloatTensor
 
@@ -58,7 +58,7 @@ OPTIMIZER = 'adam'
 
 
 INPUT = 'noise'
-input_depth = 32
+input_depth = 2
 LR = 0.01
 num_iter = 3001
 param_noise = False

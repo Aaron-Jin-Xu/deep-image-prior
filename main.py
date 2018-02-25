@@ -66,11 +66,6 @@ show_every = 500
 figsize = 5
 
 net = skip(input_depth, img_np.shape[0],
-           num_channels_down = [16, 32, 64, 128, 128],
-           num_channels_up =   [16, 32, 64, 128, 128],
-           num_channels_skip =    [0, 0, 0, 0, 4],
-           filter_size_up = 7, filter_size_down = 7,
-           upsample_mode='nearest', filter_skip_size=1,
            need_sigmoid=True, need_bias=True, pad=pad, act_fun='LeakyReLU').type(dtype)
 
 

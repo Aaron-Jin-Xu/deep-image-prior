@@ -26,8 +26,8 @@ dim_div_by = 64
 dtype = torch.cuda.FloatTensor
 
 # Choose figure
-img_path  = 'data/inpainting/test.png'
-mask_path = 'data/inpainting/test_mask.png'
+img_path  = 'data/inpainting/lena.png'
+mask_path = 'data/inpainting/lena_mask.png'
 NET_TYPE = 'skip_depth6' # one of skip_depth4|skip_depth2|UNET|ResNet
 
 # Load mask

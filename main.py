@@ -22,7 +22,7 @@ dtype = torch.cuda.FloatTensor
 
 PLOT = True
 #imsize=-1
-imsize = (512,512)
+imsize = 512
 dim_div_by = 64
 dtype = torch.cuda.FloatTensor
 
